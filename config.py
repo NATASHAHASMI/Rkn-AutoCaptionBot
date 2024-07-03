@@ -23,7 +23,7 @@ class Rkn_Bots(object):
     FORCE_SUB = os.environ.get("FORCE_SUB", "-1001868502293") 
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "Lucifer")     
+    DB_NAME = os.environ.get("DB_NAME", "Caption")     
     DB_URL = os.environ.get("DB_URL", "")
 
     #caption
