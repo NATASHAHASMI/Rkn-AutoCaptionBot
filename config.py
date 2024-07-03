@@ -24,18 +24,18 @@ class Rkn_Bots(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Lucifer")     
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://tmr624062:2fS3ifhHtKRaLWQZ@cluster0.3gpzrlg.mongodb.net/?retryWrites=true&w=majority")
+    DB_URL = os.environ.get("DB_URL", "")
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
-                             "<b><a href='https://t.me/TMR_update_channel'>{file_name} Telegram : @TMR_DEVELOPER\n\nForward the file before Downloading.</a></b>",
+                             "<b><a href='https://t.me/MOVIESTUDIOABHI'>{file_name} Telegram : @MOVIESTUDIOABHI\n\nPᴏᴡᴇʀᴇᴅ Bʏ ✘ 𝐚 𝐲 𝐨 𝐧 𝐚 𝐫 𝐚.</a></b>",
     )
 
     #sticker Id
     STICKER_ID = os.environ.get("STICKER_ID", "CAACAgIAAxkBAAKjYmZkRgOAtKRZ1d8LHnLAKUtus9noAAIjAAMoD2oUJ1El54wgpAY1BA")
 
     #admin id
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6987799874').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5837099475').split()]
     
 
 # Rkn Developer 
